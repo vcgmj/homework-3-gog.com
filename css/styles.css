@@ -1,0 +1,264 @@
+body{
+	margin:0;
+	background-color: #CCC;
+}
+/*text styles*/
+h2{
+	margin:0;
+	color: black;
+	font-family: sans-serif;
+	font-size: 14px;
+	padding-top: 20px;
+	text-transform: uppercase;
+}
+
+h3 {
+	margin:0;
+	color: black;
+	font-family: sans-serif;
+	font-size: 14px;
+	text-transform: capitalize;
+
+}
+
+h4{
+	margin:0;
+	color: white;
+	font-family: sans-serif;
+	font-size: 12px;
+	text-align: center;
+}
+
+h5{
+	margin:0;
+	color: black;
+	font-family: sans-serif;
+	font-size: 10px;
+}
+
+h6{
+	margin:0;
+	border-top: 1px solid #cfcfcf;
+	background: #d9d9d9;
+	padding: 20px;
+	color: #808080;
+	font-family: sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+/*header links*/
+nav{
+	background-color: #292324;
+	position: fixed;
+	top:0;
+	width: 100%;
+	z-index: 9999;
+}
+
+.logo, .header-links{
+	float: left;
+	padding-top: 5px;
+}
+
+.header-links > a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #cbcbcb;
+	font-family: sans-serif;
+	padding: 20px 20px;
+	display: inline-block;
+	font-size: 14px;
+}
+
+.shopping-search > a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #cbcbcb;
+	font-family: sans-serif;
+	float: right;
+	display: inline-block;
+	padding: 20px 20px;
+
+}
+
+/*body*/
+
+a{ 
+	text-decoration: none;
+}
+
+.wrapper{
+	width: 1060px;
+	margin: auto;
+}
+
+.whats-new {
+	float: left;
+}
+
+.latest-deals {
+	float: right ;
+}
+
+.ad-banner-leaderboard{
+	width: 1060px;
+	height: 80px;
+	background-color: red;
+	margin-top: 80px;
+}
+
+
+.latest-news-header{
+	float: left;
+	width:800px;
+	height: 370px;
+	background-color: orange;
+	margin-top: 10px;
+
+}
+
+.ad-banner-half-page{
+	background-color: green;
+	width: 240px;
+	height:370px;
+	position: relative;
+	float: right;
+	margin-top: 10px;
+
+}
+
+.new {
+	display:grid;
+	grid-template-columns: repeat(5, 196px);
+	grid-template-rows: repeat(2, 95px);
+	grid-column-gap:20px;
+	width: 1060px;
+	padding-top: 20px;
+}
+
+.latest-news{
+	grid-column: span 1;
+	grid-row: span 2;
+	background-color: #e1e1e1;
+}
+
+.latest-news > h3{
+	padding: 120px 10px 10px 10px;
+}
+
+.wrapper-left {
+	float: left;
+	padding-bottom: 50px;
+}
+
+.wrapper-right {
+	float: right ;
+	padding-bottom: 50px;
+}
+/*wrapper left*/
+
+.why-gog{
+	display:grid;
+	grid-template-columns: repeat(3, 170px);
+	margin-top: 20px;
+
+}
+
+.gog-benefits{
+	text-transform: capitalize;
+	padding: 50px 5px 30px 5px;
+	background-color: #788795;
+}
+
+.gog-benefits-text{
+	margin:0;
+	color: white;
+	font-family: sans-serif;
+	font-size: 12px;
+	text-align: center;
+	line-height: 1.9em;
+}
+
+.headlines{
+	padding-top: 25px;
+}
+
+.headline-grid{
+	display:grid;
+	grid-template-columns: 510px;
+	grid-template-rows: repeat(11, 121px);
+	margin-top: 20px;
+
+}
+
+.headline-news {
+	margin:0;
+	grid-column: span 2;
+	grid-row: span 1;
+	background-color: #e1e1e1;
+	
+}
+
+img{ 
+	float: left; 
+	position: relative;
+}
+
+.text{
+	position: relative;
+	float: left;
+	padding: 15px;
+}
+
+/*wrapper right*/
+
+.popular-new-upcoming-sale-header > ul {
+	display: inline-flex; 
+	color: black;
+	font-family: sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+ul{
+	padding-left: 0px;
+
+}
+li:first-child{
+	list-style-type: none;
+}
+
+li > a{
+	padding-right: 20px;
+	color: black;
+}
+
+.popular-new-upcoming-sale-grid{
+	display:grid;
+	grid-template-columns: 510px;
+	grid-template-rows: repeat(25, 60px);
+	grid-row-gap:1px;
+}
+
+.popular{
+	margin:0;
+	grid-column: span 1;
+	grid-row: span 1;
+	background-color: #e1e1e1;
+	float: left; 
+	position: relative;
+}
+
+
+.popular-text{
+	position: relative;
+	float: left;
+	padding: 15px;
+}
+
+
